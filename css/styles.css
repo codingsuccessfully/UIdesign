@@ -41,3 +41,8 @@ body {
 .navbar-inverse {
 	background-color: #512DA8;
 }
+.booking-title{
+	background-color: #f0ad4d;
+	color: #ffffff;
+	padding-left: 10px;
+}
