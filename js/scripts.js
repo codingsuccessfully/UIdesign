@@ -14,5 +14,12 @@ $(document).ready(function(){
                 }
                
             });
-            
+
+
+            $('#openLogin').click(function(){
+                $('#loginModal').modal();
+            });
+            $('#openReserve').click(function(){
+                $('#reserve').modal();
+            });
         });

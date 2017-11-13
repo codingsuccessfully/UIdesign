@@ -34,17 +34,19 @@
             <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg">Menu</a></li>
             <li class="nav-item"><a class="nav-link" href="./contact.html"><span class="fa fa-address-card fa-lg">Contact</a></li>
         </ul>
-        <span class="navbar-text">
-            <a href="" data-toggle="modal" data-target="#loginModal">
+      <!--  <button type="button" id="openLogin" class="btn btn-info btn-lg">Login</button> -->
+        
+        <span    class="navbar-text">
+            <a id="openLogin" class="btn-info">
                 <span class="fa fa-sign-in"></span>Login
             </a>
-        </span>
+        </span> 
       </div>
 	
 	</div>
 </nav>
 
-<div id="loginModal" class="modal fade" role="dialog">
+<div class="modal fade" id="loginModal" role="dialog">
     <div class="modal-dialog" role="content">
         <div class="modal-content">
             <div class="modal-header">    
@@ -97,8 +99,8 @@
 
                 <div class="col col-sm align-self-end">
                    
-                    <a href="#reserve" class="btn btn-warning" style="color: #ffffff;
-                         padding-left: 10px;" data-toggle="modal" data-target="#reserve" title="Or Call us at<br><strong>+852 12345678</strong>" 
+                    <a id="openReserve" class="btn btn-warning" style="color: #ffffff;
+                         padding-left: 10px;"  title="Or Call us at<br><strong>+852 12345678</strong>" 
                          data-placement="bottom">Reserve Table</a>
                 </div>
 
